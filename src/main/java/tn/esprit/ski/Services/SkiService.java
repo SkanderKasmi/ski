@@ -11,4 +11,6 @@ public interface SkiService {
 
     Skieur getById(Long id);
     void remove(long id);
+
+    Skieur assignSkierToPiste(Long numSkieur, Long numPiste);
 }
